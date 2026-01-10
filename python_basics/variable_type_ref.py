@@ -17,10 +17,10 @@ print(type(Height))
 print(type(is_testengineer))
 
 # id of each variable(memory address)
-print("id of name",id(Name))
-print("id of age",id(Age))
-print("id of height",id(Height))
-print("id of is_testengineer",id(is_testengineer))
+print("id of name:",id(Name))
+print("id of age:",id(Age))
+print("id of height:",id(Height))
+print("id of is_testengineer:",id(is_testengineer))
 
 # reference variables - pointing to same object
 a= 100
