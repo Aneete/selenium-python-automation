@@ -33,6 +33,26 @@ print("id of a",id(a))
 print("id of b",id(b))
 print("id of c",id(c))
 
+x="10"
+print(type(x))
+
+#Fix this code:print("Attempt " + 3)
+
+print("attempt",3)
+
+# converting"15.5" to float and print
+x="15.5"
+print(type(x))
+y=float(x)
+print(y)
+
+#Take user input for status code and compare with 200
+a = int(input("Enter the status code"))
+print(a)
+print(type(a))
+print(a==200)
+
+
 
 
 
