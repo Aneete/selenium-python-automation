@@ -4,8 +4,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 import time
 
-from python_basics.strings import username
-
 
 def test_login_page():
     driver = webdriver.Chrome(service = Service(ChromeDriverManager().install()))
