@@ -10,7 +10,7 @@ def setup():
     yield driver
     driver.quit()
 
-def open_google(setup):
+def test_open_google(setup):
     setup.get("https://www.google.com")
     assert "Google" in setup.title
 
